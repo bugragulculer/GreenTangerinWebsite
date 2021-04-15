@@ -1,0 +1,6 @@
+.blog__featured__products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}

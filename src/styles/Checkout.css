@@ -1,0 +1,368 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.checkout__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.checkout__main__logo {
+  height: 80px;
+  border-radius: 10px;
+}
+.checkout__demo {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+}
+.checkout__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 20px;
+  border: none;
+  outline: none;
+}
+.checkout__form__group {
+  width: 30vw;
+  min-width: 400px;
+  border: none;
+  border-style: none;
+  max-width: 500px;
+}
+.checkout__field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkout__field__label {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 10px;
+}
+.checkout__field__input {
+  margin: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  height: 30px;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  box-shadow: -1px -1px 2px #ccc, 1px 1px 2px #fff;
+  background-color: transparent;
+  border-radius: 1px;
+}
+.checkout__cardfield {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: flex-start;
+}
+.checkout__cardfield__form {
+  width: 100%;
+  font-size: 16px;
+  height: 30px;
+  border: none;
+  padding-top: 18px;
+  border-radius: 1px;
+  box-shadow: -1px -1px 2px #ccc, 1px 1px 2px #fff;
+  background-color: transparent;
+  padding: 5px 15px;
+  padding-top: 15px;
+}
+.checkout__details__container {
+  width: 20vw;
+  min-width: 350px;
+  flex-direction: column;
+  margin: 50px 0px;
+  padding: 7px 15px;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 1px 1px 2px #fff, -1px -1px 2px #ccc;
+  border-radius: 10px;
+}
+.checkout__details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+.checkout__divider {
+  border: solid 1px #ddd;
+  width: 100%;
+  height: 0;
+}
+.checkout__details__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+}
+
+.checkout__header {
+  font-size: 20px;
+  font-weight: 500;
+}
+.checkout__product__image {
+  height: 70px;
+  width: 100px;
+  margin-right: 10px;
+  object-fit: cover;
+  background-color: #ddd;
+}
+
+.checkout__product__title {
+  font-weight: 500;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.checkout__product__detail {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.checkout__product__price {
+  align-self: center;
+}
+
+.checkout__summary__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout__summary__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.checkout__product__detail--small {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.checkout__product__detail--small--bold {
+  margin: 0;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.checkout__product__detail--big--bold {
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.SubmitButton {
+  padding: 15px 80px;
+  background-color: darkred;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 15px 0;
+  transition: all 0.3s ease-out;
+  box-shadow: 1px 1px 2px #aaa, -1px -1px 2px #fff;
+}
+
+.SubmitButton:hover {
+  box-shadow: 2px 2px 4px #aaa, -2px -2px 4px #fff;
+  transform: scale(1.01);
+  transition: all 0.3s ease-out;
+}
+
+.SubmitButton:active {
+  box-shadow: 1px 1px 2px #fff, -1px -1px 2px #aaa;
+  transform: scale(0.99);
+  transition: all 0.3s ease-out;
+}
+
+.SubmitButton:focus {
+  outline: none;
+}
+
+.checkout__field__input:focus {
+  outline: none;
+  outline-width: 1px;
+  outline-color: #aaa;
+}
+
+.ResetButton {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  color: #242424;
+}
+.digital__downloads {
+  margin-bottom: 50px;
+}
+.secondary__button {
+  padding: 15px 25px;
+  background-color: transparent;
+  color: #242424;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #ccc, -2px -2px 4px #fff;
+}
+.secondary__button:hover {
+  box-shadow: 4px 4px 8px #ccc, -4px -4px 8px #fff;
+  transform: scale(1.01);
+  transition: all 0.4s ease-out;
+}
+
+.secondary__button:active {
+  box-shadow: -1px -1px 2px #ccc, 1px 1px 2px #fff;
+  transform: scale(0.99);
+  transition: all 0.4s ease-out;
+}
+.done__icon {
+  margin-top: 75px;
+  margin-bottom: 40px;
+  transform: scale(8);
+  color: mediumseagreen;
+}
+.payment__success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.payment__success__download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+}
+
+.payment__success__download img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.payment__download__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 50px;
+}
+.divider {
+  border: solid 1px #aaa;
+  width: 100%;
+  margin: 50px 0;
+}
+.payment__header {
+  font-size: 50px;
+  text-align: center;
+}
+.payment__desc {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.download__header {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.download__button {
+  padding: 15px 25px;
+  background-color: darkred;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #ccc, -2px -2px 4px #fff;
+  transition: all 0.4s ease-out;
+}
+
+.download__button:hover {
+  box-shadow: 4px 4px 8px #ccc, -4px -4px 8px #fff;
+  transform: scale(1.01);
+  transition: all 0.4s ease-out;
+}
+
+.download__button:active {
+  box-shadow: -1px -1px 2px #ccc, 1px 1px 2px #fff;
+  transform: scale(0.99);
+  transition: all 0.4s ease-out;
+}
+
+@media only screen and (max-width: 1000px) {
+  .checkout__main__logo {
+    height: unset;
+    width: 100vw;
+    position: relative;
+  }
+
+  .checkout {
+    padding: 0px 0;
+    margin: 0;
+  }
+  .checkout__container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .checkout__details__container {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .checkout__details,
+  .checkout__divider,
+  .checkout__header,
+  .checkout__order__summary {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .checkout__form__group {
+    width: 100%;
+  }
+  .checkout__field {
+    width: 100%;
+  }
+  .checkout__field__input {
+    width: 100%;
+  }
+  .checkout__cardfield {
+    width: 80vw;
+    margin: 0 10px;
+  }
+  .payment__success__download {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .payment__download__info {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .download__header {
+    text-align: center;
+  }
+}

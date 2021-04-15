@@ -1,0 +1,132 @@
+.featured__products__wrapper {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home__featured__products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  margin: 50px 0;
+  margin-top: 20px;
+  max-width: 1500px;
+}
+
+.featured__header {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  margin-top: 80px;
+}
+
+.featured {
+  display: flex;
+  align-items: stretch;
+}
+
+.home__container__h1 {
+  text-align: center;
+  font-weight: 500;
+}
+.featured__products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0px 0px;
+  padding: 10px 0px;
+}
+
+.featured__product {
+  width: 45vw;
+  max-width: 450px;
+  margin: 5px 5px;
+  box-shadow: 1px 1px 2px #ccc, -1px -1px 2px #fff;
+  transition: all 0.4s ease-out;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.featured__product__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.featured__product__header {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #111;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.featured__product__price {
+  font-family: "Lato", sans-serif;
+  color: #111;
+  margin: 20px 0px;
+}
+
+.featured__product__image {
+  background-color: #e3e3e3;
+  object-fit: contain;
+  margin: 0;
+  height: 100%;
+  max-height: 300px;
+}
+
+.featured__product:hover {
+  box-shadow: 4px 4px 6px #ccc, -4px -4px 6px #fff;
+  transform: scale(1.01);
+  transition: all 0.4s ease-out;
+}
+
+@media only screen and (max-width: 1000px) {
+  .featured__product__image {
+    background-color: transparent;
+    object-fit: contain;
+    margin: 0;
+    height: 100%;
+    max-width: 400px;
+  }
+  .featured__product {
+    width: 45vw;
+    max-width: 400px;
+    margin: 20px 15px;
+    box-shadow: 1px 1px 2px #ccc, -1px -1px 2px #fff;
+    transition: all 0.4s ease-out;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .featured__product {
+    width: 90vw;
+    max-width: 450px;
+    margin: 20px 15px;
+    box-shadow: 1px 1px 2px #ccc, -1px -1px 2px #fff;
+    transition: all 0.4s ease-out;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .featured__product__image {
+    background-color: transparent;
+    object-fit: contain;
+    margin: 0;
+    height: 100%;
+    max-width: 450px;
+  }
+}

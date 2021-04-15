@@ -1,0 +1,19 @@
+.products__wrapper {
+  display: grid;
+  margin: 20px 20px;
+}
+
+.products__header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .products__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

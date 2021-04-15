@@ -1,0 +1,143 @@
+.blog__header__header {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog__header__image__1 {
+  width: 100%;
+  display: flex;
+  border: solid;
+  border-width: 2px;
+  border-color: #aaa;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #888;
+}
+.blog__header__image {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+}
+
+.blog__header__gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.blog__header__h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 10px 10px;
+  padding: 0 40px;
+  color: #242424;
+  text-align: center;
+}
+
+.blog__header__h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #242424;
+  width: 500px;
+  text-align: center;
+}
+
+.blog__header__button {
+  font-family: "Source Sans Pro", sans-serif;
+  outline: none;
+  color: #242424;
+  background-color: transparent;
+  padding: 20px 50px;
+  border-style: none;
+  margin: 20px 0px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 17px;
+  box-shadow: 4px 4px 6px #ccc, -4px -4px 6px #fff;
+  transition: all 0.4s ease-out;
+  text-decoration: none;
+}
+
+.blog__header__button:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 16px #ccc, -8px -8px 16px #fff;
+  transform: scale(1.02);
+  transition: all 0.4s ease-out;
+}
+
+.blog__header__button:active {
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #fff, -2px -2px 4px #ccc;
+  transform: scale(0.98);
+  transition: all 0.4s ease-out;
+}
+
+@media only screen and (max-width: 1000px) {
+  .blog__header__header {
+    margin: 0 20px;
+  }
+  .blog__header__gradient {
+    margin: 20px 10px;
+  }
+  .blog__header__h1 {
+    margin: 0;
+  }
+  .blog__header__image__1 {
+    width: 100%;
+    display: flex;
+    border: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ddd;
+  }
+  .blog__header__image {
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blog__header__header {
+    margin: 0 10px;
+  }
+  .blog__header__gradient {
+    margin: 20px 10px;
+  }
+  .blog__header__h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .blog__header__h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .blog__header__image__1 {
+    width: 100%;
+    display: flex;
+    border: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ddd;
+  }
+  .blog__header__image {
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    height: 350px;
+  }
+}

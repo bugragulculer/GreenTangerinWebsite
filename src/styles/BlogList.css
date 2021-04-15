@@ -1,0 +1,8 @@
+.blogs__wrapper {
+  grid-column: 2 / span 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}

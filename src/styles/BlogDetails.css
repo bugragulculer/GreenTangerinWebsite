@@ -1,0 +1,51 @@
+.blog__details__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px;
+}
+
+.blog__details__image__wrapper {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 2px;
+  border-color: #aaa;
+  border-radius: 10px;
+}
+
+.blog__desc {
+  font-size: large;
+  font-weight: 300;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 28px;
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.blog__details__image {
+  padding: 0;
+  margin: 0;
+  height: 600px;
+}
+
+.blog__gradient {
+  max-width: 700px;
+}
+.blog__h1 {
+  font-weight: 500;
+  text-align: center;
+}
+
+.blog__h2 {
+  font-size: 14px;
+  line-height: 24px;
+}

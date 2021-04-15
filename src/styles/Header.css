@@ -1,0 +1,137 @@
+.header__header {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__image__1 {
+  width: 100%;
+  display: flex;
+  border: solid;
+  border-width: 2px;
+  border-color: #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+.header__image {
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+  height: 700px;
+}
+
+.header__gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.header__h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin: 10px 10px;
+  padding: 0px;
+  color: #242424;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.header__h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: #242424;
+}
+
+.header__button {
+  font-family: "Source Sans Pro", sans-serif;
+  outline: none;
+  color: #242424;
+  background-color: transparent;
+  padding: 20px 50px;
+  border-style: none;
+  margin: 20px 0px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 17px;
+  box-shadow: 4px 4px 6px #ccc, -4px -4px 6px #fff;
+  transition: all 0.4s ease-out;
+  text-decoration: none;
+}
+
+.header__button:hover {
+  cursor: pointer;
+  box-shadow: 8px 8px 16px #ccc, -8px -8px 16px #fff;
+  transform: scale(1.02);
+  transition: all 0.4s ease-out;
+}
+
+.header__button:active {
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #fff, -2px -2px 4px #ccc;
+  transform: scale(0.98);
+  transition: all 0.4s ease-out;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header__header {
+    margin: 0 20px;
+  }
+  .header__gradient {
+    margin: 20px 10px;
+  }
+  .header__h1 {
+    margin: 0;
+  }
+  .header__image__1 {
+    width: 100%;
+    display: flex;
+    border: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ddd;
+  }
+  .header__image {
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__header {
+    margin: 0 10px;
+  }
+  .header__gradient {
+    margin: 20px 10px;
+  }
+  .header__h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  .header__image__1 {
+    width: 100%;
+    display: flex;
+    border: solid;
+    border-width: 2px;
+    border-color: #ccc;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ddd;
+  }
+  .header__image {
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    height: 350px;
+  }
+}

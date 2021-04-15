@@ -1,0 +1,44 @@
+.toast-error,
+.toast {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -250px;
+  background: darkred;
+  color: white;
+  animation: all 3s ease;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1500;
+  width: 500px;
+  text-align: center;
+}
+
+.toast-info {
+  background-color: yellow;
+  color: #000;
+}
+
+.toast-success {
+  background-color: green;
+}
+
+@media only screen and (max-width: 1000px) {
+  .toast {
+    width: 80vw;
+    margin: 0;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .toast {
+    bottom: 0;
+    left: -30px;
+    margin: 0;
+    width: 100vw;
+    border-radius: 0;
+    padding: 50px 30px;
+  }
+}
