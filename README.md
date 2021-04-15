@@ -1,3 +1,24 @@
+# React based E-Commerce website for Green Tangerin Design.
+Demo Link: https://greentangerinwebsite.web.app/
+
+Apart from React, Redux, Redux Persist, Airtable and Stripe has been used. Currently, payment integration is not complete but most of the functionalities are working. 
+Screenshots;
+# Home Page
+![Home](https://user-images.githubusercontent.com/78660618/114833849-ac0d9480-9dd8-11eb-9001-d571e970f49b.png)
+# Products Page
+![Products](https://user-images.githubusercontent.com/78660618/114833906-b9c31a00-9dd8-11eb-99f1-51b7720f6334.png)
+# Product Details Page
+![ProductDetails](https://user-images.githubusercontent.com/78660618/114833942-c21b5500-9dd8-11eb-9f38-2880b52c1715.png)
+# Collections Page
+![Collections](https://user-images.githubusercontent.com/78660618/114833979-cba4bd00-9dd8-11eb-8560-583ce0ab0692.png)
+# Blog Page
+![Blog](https://user-images.githubusercontent.com/78660618/114834012-d3646180-9dd8-11eb-8b10-4cbc5b9716da.png)
+
+In order to make this code work, you need to write your Airtable API code and Stripe Public and Secret keys. Stripe integration is not complete yet but when you try to buy the products, you can access to the successful payment page without submitting your card info.
+
+In Airtable there are 5 tables we fetch. Products, Types, Collections, Variants and Blog.
+Products have title, description, url, type, featured?, sell, images, color, size, colors, sizes, Types, Collections, download and Prices. Variants table is not used currently but in the future versions it is planned to be used. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
